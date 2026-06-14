@@ -45,7 +45,7 @@ int main(){
 
 
 q) Write a program to print your name, date of birth and mobile number.
-*/
+
 #include<iostream>
 using namespace std;
 
@@ -54,6 +54,19 @@ int main(){
     cout<<"my date of birth is : 20/12/2000 "<<"\n";
     cout<<"my mobile number is : 7003030303 "<<"\n";
 }
+q) write a program to print you are eligible for voting or not based on your age.
+*/
+#include<iostream>
+using namespace std;
+int main(){
+    int age;
 
+    cout<<"enter your age: ";
+    cin>>age;
 
-
+    if(age>=18){
+        cout<<"you are eligible for voting";
+    }else{
+        cout<<"you are not eligible for voting";
+    }
+}
