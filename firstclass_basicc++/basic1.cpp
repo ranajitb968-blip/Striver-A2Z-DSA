@@ -55,7 +55,7 @@ int main(){
     cout<<"my mobile number is : 7003030303 "<<"\n";
 }
 q) write a program to print you are eligible for voting or not based on your age.
-*/
+
 #include<iostream>
 using namespace std;
 int main(){
@@ -69,4 +69,16 @@ int main(){
     }else{
         cout<<"you are not eligible for voting";
     }
+}
+
+q) write a program to print the ASCII value of a character.
+*/
+#include<iostream>
+using namespace std;
+int main(){
+    char ch;
+
+    cout<<"enter  the character: ";
+    cin>>ch;
+    cout<<"the ASCII value of "<<ch<<" is: "<<int(ch);
 }
