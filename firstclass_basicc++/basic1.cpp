@@ -72,7 +72,7 @@ int main(){
 }
 
 q) write a program to print the ASCII value of a character.
-*/
+
 #include<iostream>
 using namespace std;
 int main(){
@@ -81,4 +81,26 @@ int main(){
     cout<<"enter  the character: ";
     cin>>ch;
     cout<<"the ASCII value of "<<ch<<" is: "<<int(ch);
+}
+
+q)write a program to print the leargest value in two value.
+*/
+
+#include<iostream>
+using namespace std;
+int main(){
+    int a;
+    int b;
+
+    cout<<"enter the number of a: ";
+    cin>>a;
+
+    cout<<"enter the number of b: ";
+    cin>>b;
+
+    if(a>b){
+        cout<<"a is a leargest valued "<<endl;
+    }else{
+        cout<<"b is a leargest valued "<<endl;
+    }
 }
