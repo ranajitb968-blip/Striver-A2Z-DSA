@@ -22,7 +22,7 @@ int main(){
     cout<<"value of x is: "<<x;
     return 0;
 }
-   
+
     *In this program we are taking input from the user and then printing the sum of x and y on the console.
     The std::cin is used to take input from the user and it is used to read the value of x and y from the console.
     The std::cout is used to print the sum of x and y on the console.
@@ -106,7 +106,7 @@ int main(){
 }
 
 q)calculate the triangle area ?
-*/
+
 #include<iostream>
 using namespace std;
 int main(){
@@ -120,9 +120,32 @@ int main(){
 
     cout<<"enter the number of breath: ";
     cin>>breath;
-  
+
     area= 0.5*height*breath;
 
     cout<<"the triabgle area is: "<<area<<endl;
+
+}
+
+q) Write a program to find power of any number x ^ y.
+*/
+#include<iostream>
+#include<math.h>
+using namespace std;
+int main()
+{
+  int x;
+  int y;
+  int c;
+
+  cout<<"enter the number of x:";
+  cin>>x;
+  
+  cout<<"enter the number of y: ";
+  cin>>y;
+  
+  c=(pow (x ,y));
+
+  cout<<" x power is : "<<c<<endl;
 
 }
