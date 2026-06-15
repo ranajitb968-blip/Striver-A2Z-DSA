@@ -84,7 +84,7 @@ int main(){
 }
 
 q)write a program to print the leargest value in two value.
-*/
+
 
 #include<iostream>
 using namespace std;
@@ -103,4 +103,26 @@ int main(){
     }else{
         cout<<"b is a leargest valued "<<endl;
     }
+}
+
+q)calculate the triangle area ?
+*/
+#include<iostream>
+using namespace std;
+int main(){
+    int height;
+    int breath;
+    int area;
+
+
+    cout<<"enter the number of height: ";
+    cin>>height;
+
+    cout<<"enter the number of breath: ";
+    cin>>breath;
+  
+    area= 0.5*height*breath;
+
+    cout<<"the triabgle area is: "<<area<<endl;
+
 }
