@@ -128,7 +128,7 @@ int main(){
 }
 
 q) Write a program to find power of any number x ^ y.
-*/
+
 #include<iostream>
 #include<math.h>
 using namespace std;
@@ -140,12 +140,29 @@ int main()
 
   cout<<"enter the number of x:";
   cin>>x;
-  
+
   cout<<"enter the number of y: ";
   cin>>y;
-  
+
   c=(pow (x ,y));
 
   cout<<" x power is : "<<c<<endl;
+  return 0;
+}
 
+q)Write a Program that takes minutes as input and display the total number of hours and minutes.
+*/
+#include<iostream>
+using namespace std;
+int main(){
+ int menits;
+ int total;
+ int total1;
+ cout<<"enter the menits: ";
+ cin>>menits;
+
+  total =menits/60;
+  total1 = menits%60;
+  cout<<"hours is : "<<total<<endl;
+  cout << "menits is : " << total1 << endl;
 }
