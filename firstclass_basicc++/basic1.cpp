@@ -168,7 +168,7 @@ int main(){
 }
 
 q)Write a program to compute the perimeter and area of a circle with a given radius.
-*/
+
 #include <iostream>
 using namespace std;
 int  main()
@@ -180,4 +180,16 @@ int  main()
      cout<<("Perimeter of the Circle = %0.2f inches\n", perimeter);
     area = 3.14 * radius * radius;
     cout<<("Area of the Circle = %0.2f square inches\n", area);
+}
+
+q)Write a program to print your name, date of birth. and mobile number
+*/
+#include <iostream>
+using namespace std;
+int main()
+{
+    cout << "ranajit bera wellcome to our new dsa jurney ";
+    cout << "\n29 septembar 2005";
+    cout << "\nPhone Number : +919609794466";
+    return 0;
 }
