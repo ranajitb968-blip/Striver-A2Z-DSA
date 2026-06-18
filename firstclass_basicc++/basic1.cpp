@@ -151,7 +151,7 @@ int main()
 }
 
 q)Write a Program that takes minutes as input and display the total number of hours and minutes.
-*/
+
 #include<iostream>
 using namespace std;
 int main(){
@@ -165,4 +165,19 @@ int main(){
   total1 = menits%60;
   cout<<"hours is : "<<total<<endl;
   cout << "menits is : " << total1 << endl;
+}
+
+q)Write a program to compute the perimeter and area of a circle with a given radius.
+*/
+#include <iostream>
+using namespace std;
+int  main()
+{
+    int radius;
+    float area, perimeter;
+    radius = 6;
+    perimeter = 2 * 3.14 * radius;
+     cout<<("Perimeter of the Circle = %0.2f inches\n", perimeter);
+    area = 3.14 * radius * radius;
+    cout<<("Area of the Circle = %0.2f square inches\n", area);
 }
