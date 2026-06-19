@@ -183,7 +183,7 @@ int  main()
 }
 
 q)Write a program to print your name, date of birth. and mobile number
-*/
+
 #include <iostream>
 using namespace std;
 int main()
@@ -191,5 +191,30 @@ int main()
     cout << "ranajit bera wellcome to our new dsa jurney ";
     cout << "\n29 septembar 2005";
     cout << "\nPhone Number : +919609794466";
+    return 0;
+}
+
+Q)2. Write a program to enter two numbers and perform all arithmetic operations.
+*/
+
+#include <iostream>
+    using namespace std;
+int main()
+{
+    int x, y, sum, sub, mul;
+    float div;
+    printf("Enter Two Numbers = ");
+    scanf("%d %d", &x, &y);
+    sum = x + y;
+    sub = x - y;
+    mul = x * y;
+    div = x / y;
+
+    cout << endl
+         << "Summation of Two Numbers = " << sum << endl;
+    cout << "Subtraction of Two Numbers = " << sub << endl;
+    cout << "Multiplication of Two Numbers = " << mul << endl;
+    cout << "Division of Two Numbers = " << div << endl;
+
     return 0;
 }
