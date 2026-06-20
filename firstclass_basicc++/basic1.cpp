@@ -195,7 +195,7 @@ int main()
 }
 
 Q)2. Write a program to enter two numbers and perform all arithmetic operations.
-*/
+
 
 #include <iostream>
     using namespace std;
@@ -218,3 +218,24 @@ int main()
 
     return 0;
 }
+
+squar problem solve
+*/
+
+#include<iostream>
+using namespace std;
+
+int main(){
+  int x;
+  char a , b , c , d;
+  
+cout<<"enter the process of x: ";
+cin>>x;
+
+cout<<"enter the numbr of stricks :";
+cin>>a>>b>>c>>d;
+
+
+
+    return 0;
+};
