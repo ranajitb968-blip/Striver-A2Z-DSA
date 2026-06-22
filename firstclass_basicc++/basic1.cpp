@@ -222,20 +222,27 @@ int main()
 squar problem solve
 */
 
-#include<iostream>
+#include <bits/stdc++.h>
 using namespace std;
+int main()
+{
+    int x;
+    cin >> x;
 
-int main(){
-  int x;
-  char a , b , c , d;
-  
-cout<<"enter the process of x: ";
-cin>>x;
+    while (x--)
+    {
+        int a, b, c, d;
+        cin >> a >> b >> c >> d;
 
-cout<<"enter the numbr of stricks :";
-cin>>a>>b>>c>>d;
-
-
-
+        if (a == b && b == c && c == d&&d == a)
+        {
+            cout << "YES"<<endl;
+        }
+        else
+        {
+            cout << "NO"<<endl;
+        }
+    }
     return 0;
-};
+}
+   
