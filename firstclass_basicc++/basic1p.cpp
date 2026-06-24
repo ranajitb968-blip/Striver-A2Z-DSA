@@ -33,7 +33,7 @@ int main(){
 }
 
 q)write a progrma to enter length and breadth of a rectangle and finish its area.
-*/
+
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
@@ -45,4 +45,27 @@ int main(){
     cin>>w;
     a=(l*w);
     cout<<"A rectangle area is : "<<a<<endl;
+}
+
+Q) Write a Program to calculate area of an equilateral triangle.
+*/
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int a;
+    int b;
+    int c;
+    int d;
+
+
+    cout<<"enter the value of a : "<<endl;
+    cin>>a;
+    cout<<"enter the value of b: "<<endl;
+    cin>>b;
+    cout<<"enter the value of c"<<endl;
+    cin>>c;
+    d = a+b+c;
+    cout<<"your equilateral triangle is : "<<d<<endl;
+
+
 }
