@@ -17,7 +17,7 @@ int main(){
 
 q) write a progrma to enter length and breadth of a rectangle and finish its perimeter
 firstly you must be know that rectangle perimeter law 𝑃=2×(𝑙+𝑤)
-*/
+
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
@@ -29,5 +29,20 @@ int main(){
     cin>>w;
     p = 2*(l+w);
 
-    cout<<"A rectangle perimeter is:" <<p <<endl; 
+    cout<<"A rectangle perimeter is:" <<p <<endl;
+}
+
+q)write a progrma to enter length and breadth of a rectangle and finish its area.
+*/
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int a;
+    int l;
+    int w;
+
+    cin>>l;
+    cin>>w;
+    a=(l*w);
+    cout<<"A rectangle area is : "<<a<<endl;
 }
