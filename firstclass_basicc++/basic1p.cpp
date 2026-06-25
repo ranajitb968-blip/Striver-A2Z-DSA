@@ -48,7 +48,7 @@ int main(){
 }
 
 Q) Write a Program to calculate area of an equilateral triangle.
-*/
+
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
@@ -66,6 +66,27 @@ int main(){
     cin>>c;
     d = a+b+c;
     cout<<"your equilateral triangle is : "<<d<<endl;
+}
+
+Q)    Write a program to compute the perimeter and area of a circle with a given radius
+
+FIRSTly this problem solve you must be know that formula of circle  Perimeter (Circumference): \(C = 2 \pi r\)    Area: \(A = \pi r^2\)
+*/
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int c;
+    float a;
+    int r;
+    double const pi=3.14;
+   
+
+    cin>>c;
+    cin>>r;
+
+    a= pi*r*r;
+    cout<<"circle area is : "<<a<<endl;
+
 
 
 }
