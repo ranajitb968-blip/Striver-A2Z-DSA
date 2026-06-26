@@ -89,7 +89,6 @@ int main(){
 }
 
 Q)Write a program to convert specified days into years, weeks, and days.
-*/
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -102,5 +101,26 @@ int main (){
     cin>>days;
 
     year=days/365;
-    cout<<"year is "<<year<<endl;
+    weeks=days/7;
+    
+    cout<<"year and weeks is : "<<year<<endl;
+    cout<<"weeks is : "<<weeks<<endl;
+
+}
+
+*/
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int i;
+    int n;
+    cin>>n;
+    for(int i=0;i<n;i++){
+        for(int j=0;j<n;j++){
+            cout<<"ABCD";
+            break;                 //i besically use this break veriable for duplicate line no print 
+        }
+        cout<<endl;
+    }
+    return 0;
 }
