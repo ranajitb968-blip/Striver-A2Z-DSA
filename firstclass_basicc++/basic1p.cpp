@@ -102,7 +102,7 @@ int main (){
 
     year=days/365;
     weeks=days/7;
-    
+
     cout<<"year and weeks is : "<<year<<endl;
     cout<<"weeks is : "<<weeks<<endl;
 
@@ -123,7 +123,7 @@ int main(){
     for(int i=0;i<n;i++){
         for(int j=0;j<n;j++){
             cout<<"ABCD";
-            break;                 //i besically use this break veriable for duplicate line no print 
+            break;                 //i besically use this break veriable for duplicate line no print
         }
         cout<<endl;
     }
@@ -134,7 +134,7 @@ int main(){
 1234
 1234
 1234
-*/
+
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
@@ -142,7 +142,7 @@ int main(){
     int n;
     cout<<"enter the number of line : "<<endl;
     cin>>n;
-         
+
     for(int i=0;i<n;i++){
         for(int j=0;j<n+1;j++){
             cout<<"abcd";
@@ -154,7 +154,26 @@ int main(){
     return 0;
 }
 
+*
+**
+***
+****
+*****
+*/
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int n;
+    cout<<"enter the number of line : ";
+    cin>>n;
 
+    for(int i=1;i<=n;i++){
+        for(int j=1;j<=i;j++){
+            cout<<"*";
+        }
+        cout<<endl;
+    }
+}
 
 
 
