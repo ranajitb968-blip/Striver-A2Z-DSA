@@ -108,7 +108,12 @@ int main (){
 
 }
 
-*/
+Q) abcd
+   abcd
+   abcd
+   abcd
+
+
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
@@ -124,3 +129,45 @@ int main(){
     }
     return 0;
 }
+
+1234
+1234
+1234
+1234
+*/
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int i;
+    int n;
+    cout<<"enter the number of line : "<<endl;
+    cin>>n;
+         
+    for(int i=0;i<n;i++){
+        for(int j=0;j<n+1;j++){
+            cout<<"abcd";
+            break;
+        }
+        cout<<endl;
+    }
+
+    return 0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
