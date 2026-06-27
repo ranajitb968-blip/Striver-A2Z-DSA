@@ -159,7 +159,7 @@ int main(){
 ***
 ****
 *****
-*/
+
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
@@ -175,7 +175,25 @@ int main(){
     }
 }
 
+this is same question using while loop just try .  
+*/
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int n;
+    cout<<"enter the number of line: ";
+    cin>>n;
+    int i=1;
+    
+    while(i<=n){
+        cout<<"123";
+        i++;
+        cout << endl;
+    }
 
+
+    return 0;
+}
 
 
 
