@@ -176,7 +176,7 @@ int main(){
 }
 
 this is same question using while loop just try .  
-*/
+
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
@@ -195,16 +195,26 @@ int main(){
     return 0;
 }
 
+*/
+#include<bits/stdc++.h>
+using namespace std;
+void mininum(int a, int b)
+{
+    if (a < b)
+    {
+        cout << "this number is minimum :" << a << endl;
+    }
+    else
+    {
+        cout << "this number is not minimum , it's a maximum number :" << b << endl;
+    }
+}
+int main()
+{
+    int a, b;
+    cout << "enter two number: ";
+    cin >> a >> b;
+    mininum(7, 5);
 
-
-
-
-
-
-
-
-
-
-
-
-
+    return 0;
+}
