@@ -263,7 +263,7 @@ int main()
 }
 
 q) this is function use 
-*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -272,6 +272,27 @@ void ranajit(){
 }
 int main(){
     ranajit();
+    ranajit();
+    return 0;
+}
+
+Q)TWO SUM USING FUNCTION 
+*/
+#include<bits/stdc++.h>
+using namespace std;
+void ranajit(){
+    int a , b , sum;
+    float multiple;
+    cout<<"enter the number: ";
+    cin>>a>>b;
+
+    sum=a+b;
+    multiple=a*b;
+
+    cout<<"output"<<sum<<endl;
+    cout << "output" << multiple<< endl;
+}
+int main(){
     ranajit();
     return 0;
 }
