@@ -221,7 +221,7 @@ int main()
 
 44. Write a program to print the day of the week name using a switch case.
 
-*/
+
 
 #include <iostream>
 using namespace std;
@@ -259,5 +259,19 @@ int main()
         cout << "Invalid day number" << endl;
     }
 
+    return 0;
+}
+
+q) this is function use 
+*/
+#include<bits/stdc++.h>
+using namespace std;
+
+void ranajit(){
+    cout<<"hello ranajit bera\n";
+}
+int main(){
+    ranajit();
+    ranajit();
     return 0;
 }
