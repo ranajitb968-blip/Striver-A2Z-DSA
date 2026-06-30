@@ -277,7 +277,7 @@ int main(){
 }
 
 Q)TWO SUM USING FUNCTION 
-*/
+
 #include<bits/stdc++.h>
 using namespace std;
 void ranajit(){
@@ -295,4 +295,18 @@ void ranajit(){
 int main(){
     ranajit();
     return 0;
+}
+
+
+q)
+*/
+#include<bits/stdc++.h>
+using namespace std;
+int hello(){
+     cout<<"hello ranajit bera! "<<endl;
+
+    return 45;
+}
+int main(){
+    cout<<hello();
 }
