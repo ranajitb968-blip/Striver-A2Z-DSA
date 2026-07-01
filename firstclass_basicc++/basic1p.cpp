@@ -298,8 +298,8 @@ int main(){
 }
 
 
-q)
-*/
+q) just using name with integer value try ...
+
 #include<bits/stdc++.h>
 using namespace std;
 int hello(){
@@ -309,4 +309,31 @@ int hello(){
 }
 int main(){
     cout<<hello();
+}
+*/
+
+//squar problem solve div 4 1061 code force
+
+#include <bits/stdc++.h>
+    using namespace std;
+int main()
+{
+    int x;
+    cin >> x;
+
+    while (x--)
+    {
+        int a, b, c, d;
+        cin >> a >> b >> c >> d;
+
+        if (a == b && b == c && c == d && d == a)
+        {
+            cout << "YES" << endl;
+        }
+        else
+        {
+            cout << "NO" << endl;
+        }
+    }
+    return 0;
 }
