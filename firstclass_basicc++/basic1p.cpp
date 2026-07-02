@@ -175,7 +175,7 @@ int main(){
     }
 }
 
-this is same question using while loop just try .  
+this is same question using while loop just try .
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -184,7 +184,7 @@ int main(){
     cout<<"enter the number of line: ";
     cin>>n;
     int i=1;
-    
+
     while(i<=n){
         cout<<"123";
         i++;
@@ -194,7 +194,7 @@ int main(){
 
     return 0;
 }
-q) function use how to use 
+q) function use how to use
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -262,7 +262,7 @@ int main()
     return 0;
 }
 
-q) this is function use 
+q) this is function use
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -276,7 +276,7 @@ int main(){
     return 0;
 }
 
-Q)TWO SUM USING FUNCTION 
+Q)TWO SUM USING FUNCTION
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -310,8 +310,9 @@ int hello(){
 int main(){
     cout<<hello();
 }
-*/
 
+
+******************************************for loop question **********************************************
 // 53.	Write a program to Print your name 20 times using a for loop, while loop and do while loop.
 #include<bits/stdc++.h>
 using namespace std;
@@ -336,7 +337,7 @@ int main(){
     }
 
     return 0;
-} 
+}
 
 
 #include<bits/stdc++.h>
@@ -349,5 +350,22 @@ int main(){
      cout<<"ranajit bera "<<endl;
      i++;
     }while(i<=n);
+    return 0;
+}
+
+55.	Write a program to Calculate the Sum of 1 to 10 numbers using a for loop, while loop and do while loop.
+*/
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int i=1;
+    int n=10;
+    int sum=0;
+    for(int i=1;i<=n;i++){
+     sum=sum+i;
+   
+     cout<<"sum is: "<<sum<<endl;
+    }
+
     return 0;
 }
