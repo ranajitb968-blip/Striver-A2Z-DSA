@@ -312,28 +312,42 @@ int main(){
 }
 */
 
-//squar problem solve div 4 1061 code force
-
-#include <bits/stdc++.h>
-    using namespace std;
-int main()
-{
-    int x;
-    cin >> x;
-
-    while (x--)
-    {
-        int a, b, c, d;
-        cin >> a >> b >> c >> d;
-
-        if (a == b && b == c && c == d && d == a)
-        {
-            cout << "YES" << endl;
-        }
-        else
-        {
-            cout << "NO" << endl;
-        }
+// 53.	Write a program to Print your name 20 times using a for loop, while loop and do while loop.
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int n;
+    cin>>n;
+    for(int i=1;i<=n;i++){
+        cout<<" ranajit bera"<<endl;
     }
+    return 0;
+}
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int i=1;
+    int n;
+    cin>>n;
+    while(i<=n){
+        cout<<"ranajit bera"<<endl;
+        i++;
+    }
+
+    return 0;
+} 
+
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int i=1;
+    int n;
+    cin>>n;
+    do{
+     cout<<"ranajit bera "<<endl;
+     i++;
+    }while(i<=n);
     return 0;
 }
