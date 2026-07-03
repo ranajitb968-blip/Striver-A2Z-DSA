@@ -369,3 +369,20 @@ int main(){
 
     return 0;
 }
+// 5. Write a program to calculate the perimeter and area of a circle with a given radius.
+#include <iostream>
+    using namespace std;
+int main()
+{
+    int radius;
+    float area, perimeter;
+    radius = 6;
+
+    perimeter = (2 * 3.1416 * radius);
+    area = (3.1416 * radius * radius);
+
+    cout << "Perimeter of the Circle = " << perimeter << " inches\n";
+    cout << "Area of the Circle = " << area << " square inches\n";
+
+    return 0;
+}
