@@ -354,7 +354,7 @@ int main(){
 }
 
 55.	Write a program to Calculate the Sum of 1 to 10 numbers using a for loop, while loop and do while loop.
-*/
+
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
@@ -363,7 +363,7 @@ int main(){
     int sum=0;
     for(int i=1;i<=n;i++){
      sum=sum+i;
-   
+
      cout<<"sum is: "<<sum<<endl;
     }
 
@@ -383,6 +383,43 @@ int main()
 
     cout << "Perimeter of the Circle = " << perimeter << " inches\n";
     cout << "Area of the Circle = " << area << " square inches\n";
+
+    return 0;
+}
+
+Q)224.	Write a program to find a cube of any number using a user-defined function.
+*/
+#include<bits/stdc++.h>
+using namespace std;
+// void cube(){
+//     int x;
+//     int n;
+//     cin>>n;
+//     x=n*n*n;
+
+// }
+// int main(){
+//     cube();
+//     int x;
+//     cout<<"cube is : "<<x<<endl;
+// }
+
+// Function to calculate the cube of a number
+double cube(double num)
+{
+    return num * num * num;
+}
+
+int main()
+{
+    double number;
+
+    cout << "Enter a number: ";
+    cin >> number;
+
+    double result = cube(number);
+
+    cout << "Cube of " << number << " is " << result << endl;
 
     return 0;
 }
