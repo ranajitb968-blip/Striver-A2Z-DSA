@@ -388,23 +388,23 @@ int main()
 }
 
 Q)224.	Write a program to find a cube of any number using a user-defined function.
-*/
+
 #include<bits/stdc++.h>
 using namespace std;
-// void cube(){
-//     int x;
-//     int n;
-//     cin>>n;
-//     x=n*n*n;
+void cube(){
+    int x;
+    int n;
+    cin>>n;
+    x=n*n*n;
 
-// }
-// int main(){
-//     cube();
-//     int x;
-//     cout<<"cube is : "<<x<<endl;
-// }
+}
+int main(){
+    cube();
+    int x;
+    cout<<"cube is : "<<x<<endl;
+}
 
-// Function to calculate the cube of a number
+Function to calculate the cube of a number
 double cube(double num)
 {
     return num * num * num;
@@ -421,5 +421,23 @@ int main()
 
     cout << "Cube of " << number << " is " << result << endl;
 
+    return 0;
+}
+
+*/
+//Write a program to print a matrix using array.
+#include <bits/stdc++.h>
+using namespace std;
+    int main()
+{
+    int num[3][3], i, j;
+    for (i = 0; i < 3; i++)
+    {
+        for (j = 0; j < 3; j++)
+        {
+            cout << j + 1 << "\t";
+        }
+        cout << endl;
+    }
     return 0;
 }
