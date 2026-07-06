@@ -424,7 +424,7 @@ int main()
     return 0;
 }
 
-*/
+
 //Write a program to print a matrix using array.
 #include <bits/stdc++.h>
 using namespace std;
@@ -439,5 +439,23 @@ using namespace std;
         }
         cout << endl;
     }
+    return 0;
+}
+
+*/
+//7. Write a program that converts Centigrade to Fahrenheit.
+#include <iostream>
+    using namespace std;
+
+int main()
+{
+    float f, c;
+    cout << "Enter Celsius temperature: ";
+    cin >> c;
+
+    f = ((9 * c) / 5) + 32;
+
+    cout << "Fahrenheit: " << f;
+
     return 0;
 }
