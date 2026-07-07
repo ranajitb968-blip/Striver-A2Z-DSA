@@ -442,7 +442,7 @@ using namespace std;
     return 0;
 }
 
-*/
+
 //7. Write a program that converts Centigrade to Fahrenheit.
 #include <iostream>
     using namespace std;
@@ -457,5 +457,26 @@ int main()
 
     cout << "Fahrenheit: " << f;
 
+    return 0;
+}
+
+
+
+*/
+
+
+
+//1.	Write a program to enter any number and calculate its square root.
+#include <iostream>
+#include<math.h>
+using namespace std;
+int main(){
+    int num, result;
+    cout<<"Enter a number: ";
+    cin>>num;
+   
+    result = sqrt(num);
+   
+    cout<<"Square root = "<<result;
     return 0;
 }
