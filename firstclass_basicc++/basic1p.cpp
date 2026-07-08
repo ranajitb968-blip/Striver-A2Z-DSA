@@ -480,3 +480,23 @@ int main(){
     cout<<"Square root = "<<result;
     return 0;
 }
+
+//93. Write a program to read and print elements of an array.
+#include <iostream>
+    using namespace std;
+
+int main()
+{
+    int arr[5];
+    cout << "Enter 5 elements of the array: ";
+    for (int i = 0; i < 5; i++)
+    {
+        cin >> arr[i];
+    }
+    cout << "The elements of the array are: ";
+    for (int i = 0; i < 5; i++)
+    {
+        cout << arr[i] << " ";
+    }
+    return 0;
+}
