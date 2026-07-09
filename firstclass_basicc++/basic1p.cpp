@@ -500,3 +500,23 @@ int main()
     }
     return 0;
 }
+//23.	Write a program to check whether a number is negative or positive or zero.
+#include<iostream>
+using namespace std;
+int main(){
+    int num;
+    cout<<"Enter a Number: ";
+    cin>>num;
+
+    if(num < 0){
+        cout<<num<<" is negative number.";
+    }
+    else if(num == 0){
+        cout<<num<<" is zero.";
+    }
+    else{
+        cout<<num<<" is positive number.";
+    }
+
+    return 0;
+}
