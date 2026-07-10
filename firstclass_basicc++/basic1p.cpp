@@ -462,7 +462,7 @@ int main()
 
 
 
-*/
+
 
 
 
@@ -474,9 +474,9 @@ int main(){
     int num, result;
     cout<<"Enter a number: ";
     cin>>num;
-   
+
     result = sqrt(num);
-   
+
     cout<<"Square root = "<<result;
     return 0;
 }
@@ -500,7 +500,8 @@ int main()
     }
     return 0;
 }
-//23.	Write a program to check whether a number is negative or positive or zero.
+//23. Write a program to check whether a number is negative or positive or zero.
+
 #include<iostream>
 using namespace std;
 int main(){
@@ -517,6 +518,28 @@ int main(){
     else{
         cout<<num<<" is positive number.";
     }
+
+    return 0;
+}
+
+
+
+//Write a program to find the power of any number x ^ y.
+*/
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int x;
+    int y=2;
+    int number;
+
+    cout<<"enter the number of x: ";
+    cin>>x;
+
+
+    number=pow(x,y);
+
+    cout<<"power number is : "<<number<<endl;
 
     return 0;
 }
