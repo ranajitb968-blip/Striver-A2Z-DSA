@@ -545,14 +545,28 @@ int main(){
 }
 
 
- 2 + 4 + 6 + 8 + 10 + 12 + 14 + ………………………… + 26 = ?
-*/
+// 2 + 4 + 6 + 8 + 10 + 12 + 14 + ………………………… + 26 = ?
+
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
     int i;
 
     for(int i=2;i<=26;i+=2){
+        cout<<i<<endl;
+    }
+
+    return 0;
+}
+
+// 2 + 4 + 6 + 8 + 10 + 12 + 14 = ?
+*/
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int i;
+
+    for(int i=0;i<=14;i+=2){
         cout<<i<<endl;
     }
 
