@@ -560,7 +560,7 @@ int main(){
 }
 
 // 2 + 4 + 6 + 8 + 10 + 12 + 14 = ?
-*/
+
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
@@ -572,3 +572,27 @@ int main(){
 
     return 0;
 }
+
+// 1 +11 + 111 + 1111 + .. n terms
+*/
+#include<bits/stdc++.h>
+using namespace std;
+
+    int main()
+    {
+        int n;
+        long long term = 0, sum = 0;
+
+        printf("Enter number of terms: ");
+        scanf("%d", &n);
+
+        for (int i = 1; i <= n; i++)
+        {
+            term = term * 10 + 1;
+            sum += term;
+        }
+
+        printf("Sum = %lld\n", sum);
+
+        return 0;
+    }
