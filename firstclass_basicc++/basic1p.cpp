@@ -574,7 +574,7 @@ int main(){
 }
 
 // 1 +11 + 111 + 1111 + .. n terms
-*/
+
 #include<bits/stdc++.h>
 using namespace std;
 
@@ -596,3 +596,18 @@ using namespace std;
 
         return 0;
     }
+
+//99.Write a Program for sum of 5 numbers using Array.
+*/
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int n = 5;
+    int ranajit[]={2,2,2,1,1};
+    int sum=0;
+    for(int i=0; i<n; i++){
+        sum += ranajit[i];
+    }
+    cout << "total array sum is : " << sum << endl;
+    return 0;
+}
