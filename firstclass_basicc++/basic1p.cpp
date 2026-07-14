@@ -598,7 +598,7 @@ using namespace std;
     }
 
 //99.Write a Program for sum of 5 numbers using Array.
-*/
+
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
@@ -610,4 +610,25 @@ int main(){
     }
     cout << "total array sum is : " << sum << endl;
     return 0;
+}
+
+*/
+
+//.Write a program to read the age of 10 persons and count the number of persons in the age
+// group 50 to 60.
+#include <stdio.h>
+    void main()
+{
+    int t, age, i;
+    t = 0;
+    for (i = 1; i <= 10; i++)
+    {
+        printf("Enter %d no person's age = ", i);
+        scanf("%d", &age);
+        if (age >= 50 && age <= 60)
+        {
+            t++;
+        }
+    }
+    printf("Total persons between 50 to 60 ages = %d", t);
 }
