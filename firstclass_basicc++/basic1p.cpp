@@ -612,8 +612,6 @@ int main(){
     return 0;
 }
 
-*/
-
 //.Write a program to read the age of 10 persons and count the number of persons in the age
 // group 50 to 60.
 #include <stdio.h>
@@ -631,4 +629,26 @@ int main(){
         }
     }
     printf("Total persons between 50 to 60 ages = %d", t);
+}
+
+
+q)Write a program to add two numbers (Input collect from user)
+*/
+#include<bits/stdc++.h>
+using namespace std;
+void add(){
+    int a;
+    int b;
+    int add;
+    cout<<"enter the number of a:";
+    cin>>a;
+    cout<<"enter the number of b:";
+    cin>>b;
+
+    add=a+b;
+    cout<<"The sum is: "<<add<<endl;
+}
+int main(){
+    add();
+    return 0;
 }
