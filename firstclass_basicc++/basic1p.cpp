@@ -632,8 +632,8 @@ int main(){
 }
 
 
-q)Write a program to add two numbers (Input collect from user)
-*/
+q)Write a program to add two numbers (Input collect from user) using user defined function.
+
 #include<bits/stdc++.h>
 using namespace std;
 void add(){
@@ -651,4 +651,26 @@ void add(){
 int main(){
     add();
     return 0;
+}
+
+//144.Write a program to find maximum and minimum between two numbers.
+*/
+#include<bits/stdc++.h>
+using namespace std;
+void max_min(int a, int b){
+    if(a>b){
+        cout<<"this number is maximum : "<<a<<endl;
+    }
+    else{
+        cout<<"this number is minimum : "<<b<<endl;
+    }
+
+}
+int main(){
+    int a,b;
+    cout<<"enter the number of a: ";
+    cin>>a;
+    cout<<"enter the number of b: ";
+    cin>>b;
+    max_min(a,b);
 }
