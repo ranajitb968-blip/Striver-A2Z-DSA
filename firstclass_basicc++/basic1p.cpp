@@ -654,7 +654,7 @@ int main(){
 }
 
 //144.Write a program to find maximum and minimum between two numbers.
-*/
+
 #include<bits/stdc++.h>
 using namespace std;
 void max_min(int a, int b){
@@ -673,4 +673,19 @@ int main(){
     cout<<"enter the number of b: ";
     cin>>b;
     max_min(a,b);
+}
+
+//write a program to multiple table
+*/
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    int num;
+    cout<<"enter the number of table: ";
+    cin>>num;
+    for(int i=1;i<=10;i++){
+        cout<<num<<"*"<<i<<"="<<num*i <<endl;
+    }
+    return 0;
+    
 }
