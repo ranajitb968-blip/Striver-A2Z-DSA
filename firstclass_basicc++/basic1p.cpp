@@ -676,7 +676,7 @@ int main(){
 }
 
 //write a program to multiple table
-*/
+
 #include<bits/stdc++.h>
 using namespace std;
 int main(){
@@ -689,3 +689,26 @@ int main(){
     return 0;
     
 }
+*/
+//34.	Write a program to input the angles of a triangle and check whether a triangle is valid or not. 
+#include <iostream>
+using namespace std;
+
+int main() {
+    int angle1, angle2, angle3, sum;
+
+    cout << "Enter three angles of a triangle: ";
+    cin >> angle1 >> angle2 >> angle3;
+
+    sum = angle1 + angle2 + angle3;
+
+    if (sum == 180) {
+        cout << "The triangle is valid.";
+    }
+    else {
+        cout << "The triangle is not valid.";
+    }
+
+    return 0;
+}
+
