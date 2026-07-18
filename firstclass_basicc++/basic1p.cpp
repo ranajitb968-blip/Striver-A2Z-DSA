@@ -689,7 +689,7 @@ int main(){
     return 0;
     
 }
-*/
+
 //34.	Write a program to input the angles of a triangle and check whether a triangle is valid or not. 
 #include <iostream>
 using namespace std;
@@ -710,5 +710,24 @@ int main() {
     }
 
     return 0;
-}
+}  */
 
+//57. Write a program to print even numbers up to N.
+#include <iostream>
+    using namespace std;
+
+int main()
+{
+    int n;
+    cout << "Enter a positive integer: ";
+    cin >> n;
+
+    cout << "Even numbers up to " << n << " are: ";
+    for (int i = 2; i <= n; i += 2)
+    {
+        cout << i << " ";
+    }
+    cout << endl;
+
+    return 0;
+}
