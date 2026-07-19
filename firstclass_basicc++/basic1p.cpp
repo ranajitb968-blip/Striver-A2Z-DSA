@@ -687,10 +687,10 @@ int main(){
         cout<<num<<"*"<<i<<"="<<num*i <<endl;
     }
     return 0;
-    
+
 }
 
-//34.	Write a program to input the angles of a triangle and check whether a triangle is valid or not. 
+//34.	Write a program to input the angles of a triangle and check whether a triangle is valid or not.
 #include <iostream>
 using namespace std;
 
@@ -710,7 +710,7 @@ int main() {
     }
 
     return 0;
-}  */
+}
 
 //57. Write a program to print even numbers up to N.
 #include <iostream>
@@ -728,6 +728,27 @@ int main()
         cout << i << " ";
     }
     cout << endl;
+
+    return 0;
+}
+
+//Write a program to check whether a number is even or odd using functions.
+*/
+#include<bits/stdc++.h>
+using namespace std;
+void eve_odd(){
+    int n;
+    cin>>n;
+
+    if(n%2==0){
+        cout<<"even";
+    }else{
+        cout<<"odd";
+    }
+}
+
+int main(){
+    eve_odd();
 
     return 0;
 }
