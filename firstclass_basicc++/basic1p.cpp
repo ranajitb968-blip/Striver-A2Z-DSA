@@ -733,7 +733,7 @@ int main()
 }
 
 //Write a program to check whether a number is even or odd using functions.
-*/
+
 #include<bits/stdc++.h>
 using namespace std;
 void eve_odd(){
@@ -750,5 +750,21 @@ void eve_odd(){
 int main(){
     eve_odd();
 
+    return 0;
+}
+
+//Write a program to find cube of any number using function.
+*/
+#include<bits/stdc++.h>
+using namespace std;
+void cube(){
+int n;
+cin>>n;
+int cube=n*n*n;
+cout<<"coube is : "<<cube<<endl;
+
+}
+int main(){
+    cube();
     return 0;
 }
