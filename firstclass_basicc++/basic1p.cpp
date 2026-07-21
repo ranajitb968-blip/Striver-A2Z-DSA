@@ -754,7 +754,7 @@ int main(){
 }
 
 //Write a program to find cube of any number using function.
-*/
+
 #include<bits/stdc++.h>
 using namespace std;
 void cube(){
@@ -766,5 +766,24 @@ cout<<"coube is : "<<cube<<endl;
 }
 int main(){
     cube();
+    return 0;
+}
+
+*/
+// 143.Write a program to find diameter, circumference, and area of circle.
+
+#include <bits/stdc++.h>
+using namespace std;
+void diameter_cir()
+{
+    const double pi = 3.14;
+    int r;
+    cin >> r;
+    int diameter_cir = pi * r * r;
+    cout << "coube is : " << diameter_cir << endl;
+}
+int main()
+{
+    diameter_cir();
     return 0;
 }
