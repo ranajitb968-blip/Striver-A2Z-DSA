@@ -218,4 +218,17 @@ int main()
 
     return 0;
 }
+
 */
+
+#include <iostream>
+using namespace std;
+int main()
+{
+    int radius = 6;
+    float area, perimeter = 2 * 3.14 * radius;
+    printf("Perimeter of the Circle = %0.2f inches\n", perimeter);
+    area = 3.14 * radius * radius;
+    printf("Area of the Circle = %0.2f square inches\n", area);
+    return 0;
+}
