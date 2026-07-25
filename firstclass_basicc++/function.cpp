@@ -61,3 +61,15 @@ int main()
     return 0;
 }
 */
+//function in c++
+#include <bits/stdc++.h>
+using namespace std;
+int square(int n){
+     return n*n;
+}
+int main(){
+    int results;
+    results=square(5);
+    cout<<"square is :"<<results<<endl;
+    return 0;
+}
