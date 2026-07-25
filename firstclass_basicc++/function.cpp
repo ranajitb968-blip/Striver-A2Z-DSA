@@ -74,7 +74,7 @@ int main(){
     return 0;
 }
 
-*/
+
 // Write a program to find the multiple of two numbers using function.
 #include <bits/stdc++.h>
 using namespace std;
@@ -90,4 +90,21 @@ int main(){
     int results;
     results=multiple(5,7);
     cout<<"multiple is :"<<results<<endl;
+}
+    
+*/
+
+// Parameters or Arguments in function in c++
+#include <bits/stdc++.h>
+using namespace std;
+int printnum(int n){
+    cout<< n << endl;
+}
+int main(){
+    int num1=10;
+    int num2=20;
+
+    printnum(num1);
+    printnum(num2);
+    return 0;
 }
