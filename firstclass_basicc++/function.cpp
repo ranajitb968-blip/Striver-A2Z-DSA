@@ -60,8 +60,8 @@ int main()
     diameter_cir();
     return 0;
 }
-*/
-//function in c++
+
+//square problem function in c++
 #include <bits/stdc++.h>
 using namespace std;
 int square(int n){
@@ -72,4 +72,22 @@ int main(){
     results=square(5);
     cout<<"square is :"<<results<<endl;
     return 0;
+}
+
+*/
+// Write a program to find the multiple of two numbers using function.
+#include <bits/stdc++.h>
+using namespace std;
+void wellcome(){
+    cout<<"wellcome to function program"<<endl;
+}
+
+int multiple(int a , int b){
+   return a*b;
+}
+int main(){
+    wellcome();
+    int results;
+    results=multiple(5,7);
+    cout<<"multiple is :"<<results<<endl;
 }
