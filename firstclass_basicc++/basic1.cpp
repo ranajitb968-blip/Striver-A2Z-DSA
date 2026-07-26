@@ -7,6 +7,7 @@
 #include<iostream>
 int main(){
     std::cout<<"hi ranajit"<<std::endl;
+    std::cout<<"hi ranajit"<<"\n";                //\n is used to move the cursor to the next line.
     std::cout<<"hi dsa you are the best friend of mind"<<std::endl;
     return 0;
 }
@@ -27,7 +28,7 @@ int main(){
     The std::cin is used to take input from the user and it is used to read the value of x and y from the console.
     The std::cout is used to print the sum of x and y on the console.
 
-#include<iostream>
+#include<bits/stdc++.h>  //that means this is a header file that includes all the standard libraries of C++.
 using namespace std;
 int main(){
     int x;
@@ -219,7 +220,7 @@ int main()
     return 0;
 }
 
-*/
+
 //this is code area of the circle ?
 #include <iostream>
 using namespace std;
@@ -230,5 +231,44 @@ int main()
     printf("Perimeter of the Circle = %0.2f inches\n", perimeter);
     area = 3.14 * radius * radius;
     printf("Area of the Circle = %0.2f square inches\n", area);
+    return 0;
+}
+
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    //different data types in c++.
+    int a=10; //integer data type
+    long b=100000; //long data type
+    long long c=10000000000; //long long data type
+    float d=10.5; //float data type
+    double e=10.5; //double data type
+    long double f=10.5; //long double data type
+    return 0;
+}
+
+//string and getline
+
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+    // different data types in c++.
+    string s1;
+    string s2;
+    cin>>s1>>s2;
+    cout<<s1<<" "<<s2<<endl;
+    return 0;
+}
+*/
+
+#include <bits/stdc++.h>
+using namespace std;
+int main()
+{
+  string str;
+  getline(cin,str);
+  cout<<str<<endl;
     return 0;
 }

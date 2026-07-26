@@ -92,7 +92,7 @@ int main(){
     cout<<"multiple is :"<<results<<endl;
 }
     
-*/
+
 
 // Parameters or Arguments in function in c++
 #include <bits/stdc++.h>
@@ -106,5 +106,39 @@ int main(){
 
     printnum(num1);
     printnum(num2);
+    return 0;
+}
+
+
+// update cube 
+#include<iostream>
+using namespace std;
+int cube(int a){
+return a*a*a;
+}
+int main(){
+    int results;
+    results=cube(5);
+    cout<<"cube is : "<<results<<endl;
+    return 0;
+}
+
+*/
+//update even odd must cheack
+#include <iostream>
+using namespace std;
+int even_odd(int a)
+{
+    if(a%2==0){
+        cout<<"even number";
+    }else{
+        cout<<"odd number ";
+    }
+}
+int main()
+{
+    int results;
+    results = even_odd(6);
+    cout << results;
     return 0;
 }
