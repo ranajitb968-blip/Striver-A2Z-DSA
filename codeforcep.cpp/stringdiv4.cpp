@@ -8,7 +8,7 @@ memory limit per test256 megabytes
 Trippi Troppi resides in a strange world.The ancient name of each country consists of three strings.The first letter of each string is concatenated to form the country's modern name.
 Given the country's ancient name, please output the modern name.
 
-    Input
+** Input
 The first line contains an integer t
  – the number of independent test cases(1≤t≤100)
             .
@@ -43,30 +43,19 @@ The first line contains an integer t
     sss
     gba
 
-
-    
-   #include<bits/stdc++.h>
-   using namespace std;
-   int main(){
-    string m="ranajit";
-    cout<<m.length()<<endl;
-   }
-
-
-   */
-
-#include <bits/stdc++.h>
+*/
+#include<bits/stdc++.h>
 using namespace std;
-int main()
-{
-    char str[] = "ranajit bera";
-    int len=0;
+int main(){
+    int test;
+    cin>>test;
 
-    for (int i = 0; i < str[i] != '\0'; i++)
-    {
-        len++;
+    while(test--){
+        string s1;
+        string s2;
+        string s3;
+        cin>>s1>>s2>>s3;
+        cout<<s1[0]<<s2[0]<<s3[0]<<endl;
     }
-    cout<<str<<endl;
-    cout<<strlen(str)<<endl;
-    return 0;
+return 0;
 }
