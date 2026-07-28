@@ -732,3 +732,12 @@ int main()
     return 0;
 }
 */
+//ascii value
+#include<iostream>
+using namespace std;
+int main(){
+    char ch;
+    cout<<"enter the char or symbol: ";
+    cin>>ch;
+    cout<<"ASCII value is :"<<int(ch);
+}

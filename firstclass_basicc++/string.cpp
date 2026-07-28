@@ -37,7 +37,7 @@ int main()
    cout << str << endl;
    str.pop_back();
    cout << str << endl;
-   str.insert(12," is a good boy");
+   str.insert(12, " is a good boy");
    cout<<str<<endl;
    str.erase(4 , 8);
     cout<<str<<endl;
