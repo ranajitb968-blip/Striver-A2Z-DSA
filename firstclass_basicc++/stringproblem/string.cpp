@@ -186,6 +186,10 @@ int main() {
 }
 
 
+
+**hands write code practice 
+
+
    #include<bits/stdc++.h>
    using namespace std;
    int main(){
@@ -212,7 +216,7 @@ int main()
     return 0;
 }
 
-*/
+
 
 #include <bits/stdc++.h>
 using namespace std;
@@ -230,4 +234,51 @@ int main()
     return 0;
 }
 
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    string name= {"ranajit bera"};
 
+    name =string (name.rbegin(),name.rend());
+    cout<<name;
+
+    return 0;
+}
+
+// inputs - banana
+// output - bnn
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    string s;
+    getline(cin,s);
+
+    for(int i=0;i<s.length();i++){
+        if(s[i]=='a'){
+            // string.erase(start_position, number_of_characters);
+            s.erase(i, 1);
+            i--; // Adjust index after removal
+        }
+        cout<<s[i];
+    }
+
+    return 0;
+}
+*/
+#include <bits/stdc++.h>
+using namespace std;
+int main(){
+    string s;
+    getline(cin,s);
+string result;
+
+for (char c : s)
+{
+    if (c != 'a')
+    {
+        result.push_back(c);
+    }
+}
+
+cout << result;
+}
