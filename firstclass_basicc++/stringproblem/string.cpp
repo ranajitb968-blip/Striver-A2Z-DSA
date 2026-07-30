@@ -264,7 +264,7 @@ int main(){
 
     return 0;
 }
-*/
+
 #include <bits/stdc++.h>
 using namespace std;
 int main(){
@@ -281,4 +281,28 @@ for (char c : s)
 }
 
 cout << result;
+}
+
+
+
+//. Count Vowels ⭐
+Input
+competitive
+ Output
+ 5
+
+ */
+
+#include<bits/stdc++.h>
+using namespace std;
+int main(){
+    string s;
+    int count=0;
+    getline(cin,s);
+    for(char c: s){
+        if(c=='i'||c=='e'||c=='o'||c=='u'||c=='a'){
+            count++;
+        }
+    }
+    cout<<count;
 }
