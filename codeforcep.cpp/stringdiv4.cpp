@@ -146,3 +146,53 @@ In both cases, exactly one operation is performed, after which all letters of on
 In the fifth input test case, the string consists of a single character 'b'. The single character already forms a continuous block, no swaps are needed, so the minimum number of operations is 0
 .
 */
+#include <bits/stdc++.h>
+using namespace std;
+
+long long solve(char ch, const string &s)
+{
+    vector<int> pos;
+
+    // Store positions of the chosen character
+    for (int i = 0; i < s.size(); i++)
+    {
+        if (s[i] == ch)
+            pos.push_back(i);
+    }
+
+    // Already one block or no such character
+    if (pos.size() <= 1)
+        return 0;
+
+    long long moves = 0;
+
+    // Shift positions so that chosen characters become consecutive
+    for (int i = 0; i < pos.size(); i++)
+    {
+        moves += abs(pos[i] - (pos[0] + i));
+    }
+
+    return moves;
+}
+
+int main()
+{
+    ios::sync_with_stdio(false);
+    cin.tie(nullptr);
+
+    int t;
+    cin >> t;
+
+    while (t--)
+    {
+        int n;
+        cin >> n;
+
+        string s;
+        cin >> s;
+
+        cout << min(solve('a', s), solve('b', s)) << '\n';
+    }
+
+    return 0;
+}
