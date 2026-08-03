@@ -145,7 +145,7 @@ In both cases, exactly one operation is performed, after which all letters of on
 .
 In the fifth input test case, the string consists of a single character 'b'. The single character already forms a continuous block, no swaps are needed, so the minimum number of operations is 0
 .
-*/
+
 #include <bits/stdc++.h>
 using namespace std;
 
@@ -196,3 +196,21 @@ int main()
 
     return 0;
 }
+
+*/
+#include<bits/stdc++.h>
+using namespace std;
+
+class Car
+{
+public:
+    // Attribute
+    string color;
+    string model;
+
+    // Method
+    void startEngine()
+    {
+        cout << "Engine started" << endl;
+    }
+};
