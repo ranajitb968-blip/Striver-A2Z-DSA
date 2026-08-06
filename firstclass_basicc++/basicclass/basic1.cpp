@@ -250,7 +250,7 @@ int main()
 
     return 0;
 }
-*/
+
 //17.	Write a program to enter any number and calculate its square root.
 #include <iostream>
 #include<math.h>
@@ -265,3 +265,6 @@ int main(){
     cout<<"Square root = "<<result;
     return 0;
 }
+
+*/
+// 18.	Write a program to calculate a bike’s total consumption from the given total distance (integer value) traveled (in km) and spent fuel (in liters, float number – 2 decimal points.

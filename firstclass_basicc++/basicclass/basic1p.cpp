@@ -731,7 +731,7 @@ int main()
 
     return 0;
 }
-*/
+
 //ascii value
 #include<iostream>
 using namespace std;
@@ -740,4 +740,35 @@ int main(){
     cout<<"enter the char or symbol: ";
     cin>>ch;
     cout<<"ASCII value is :"<<int(ch);
+}
+
+*/
+//189. Write a program to convert lowercase string to uppercase and uppercase string to lowercase string.
+#include <iostream>
+#include <cstring>
+#include <cctype>
+    using namespace std;
+
+int main()
+{
+    char str[100];
+
+    cout << "Enter a string: ";
+    cin.getline(str, 100);
+
+    for (int i = 0; str[i]; i++)
+    {
+        if (islower(str[i]))
+        {
+            str[i] = toupper(str[i]);
+        }
+        else if (isupper(str[i]))
+        {
+            str[i] = tolower(str[i]);
+        }
+    }
+
+    cout << "Converted string: " << str << endl;
+
+    return 0;
 }
