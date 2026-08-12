@@ -742,7 +742,7 @@ int main(){
     cout<<"ASCII value is :"<<int(ch);
 }
 
-*/
+
 //189. Write a program to convert lowercase string to uppercase and uppercase string to lowercase string.
 #include <iostream>
 #include <cstring>
@@ -770,5 +770,24 @@ int main()
 
     cout << "Converted string: " << str << endl;
 
+    return 0;
+}
+
+*/
+// 147.	Write a program to make such a pattern as a right-angle triangle with a number that will repeat a number in a row.
+// The pattern is like 1 2 2 3 3 3 4 4 4 4
+#include <iostream>
+    using namespace std;
+int main()
+{
+    int i, j;
+    for (i = 1; i <= 4; i++)
+    {
+        for (j = 1; j <= i; j++)
+        {
+            cout << i << " ";
+        }
+        cout << endl;
+    }
     return 0;
 }
