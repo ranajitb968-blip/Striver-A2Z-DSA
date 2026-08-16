@@ -89,7 +89,6 @@ public:
 
         for (int i = 0; i < s.length(); i++)
         {
-
             int current = value(s[i]);
 
             // Last character
