@@ -773,7 +773,7 @@ int main()
     return 0;
 }
 
-*/
+
 // 147.	Write a program to make such a pattern as a right-angle triangle with a number that will repeat a number in a row.
 // The pattern is like 1 2 2 3 3 3 4 4 4 4
 #include <iostream>
@@ -791,3 +791,6 @@ int main()
     }
     return 0;
 }
+
+
+*/
