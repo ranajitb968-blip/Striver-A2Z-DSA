@@ -55,12 +55,11 @@ public:
             } else if (s[i] == 'P') {
                 latecount = 0;
             }
-        }
-        if (absencecount >= 2 || latecount >= 3) {
+                 if (absencecount >= 2 || latecount >= 3) {
             return false;
-        } else {
-            return true;
         }
+        }
+        return true;
     }
 };
 */
