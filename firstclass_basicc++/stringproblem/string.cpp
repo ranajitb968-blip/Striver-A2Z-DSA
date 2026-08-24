@@ -1,5 +1,5 @@
 /*
-***theory of string in c++***
+
 
 Different Methods to Reverse a String in C++.
 
@@ -187,7 +187,7 @@ int main() {
 
 
 
-**hands write code practice 
+**hands write code practice
 
 
    #include<bits/stdc++.h>
@@ -291,7 +291,7 @@ competitive
  Output
  5
 
- */
+
 
 #include<bits/stdc++.h>
 using namespace std;
@@ -306,3 +306,24 @@ int main(){
     }
     cout<<count;
 }
+
+Given a binary string, find if it is possible to make all its digits
+ equal(either all 0's or all 1's) by flipping exactly one bit.
+
+Input : 101
+ Output : Yes
+ Explanation : In 101,    the 0 can be flipped to make it all 1
+
+    Input : 11
+
+    Output : No
+
+ Explanation : No matter whichever digit you flip,
+   you will not get the desired string.
+
+ Input : 1
+
+ Output : Yes
+  Explanation : We can flip 1, to make all 0'sjust explain not code hint 1
+
+  */

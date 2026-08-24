@@ -15,7 +15,7 @@ int main(){
     return 0;
 }
 
-*/
+
 
 // 99.Write a Program for sum of 5 numbers using user input array
 
@@ -36,3 +36,7 @@ int main(){
  }
     return 0;
 }
+
+*/
+
+// Write a Program to calculate sum and average of N numbers.
